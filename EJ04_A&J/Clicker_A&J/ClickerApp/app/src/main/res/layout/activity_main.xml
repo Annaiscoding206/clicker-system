@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q1. Who is the coolest Marvel Hero?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Refresh"
+            android:textSize="13sp"
+            android:backgroundTint="#FF7043"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A. Captain America"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B. Ironman"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C. Black Widow"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D. Thor"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose an option"
+            android:textSize="16sp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Any other remarks?"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type here..."
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Submit"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#008000"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="32dp" />
+
+    </LinearLayout>
+
+</ScrollView>
