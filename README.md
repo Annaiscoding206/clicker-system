@@ -19,7 +19,7 @@ This project is a full clicker system consisting of a web-based backend and an A
 ---
 
 ## Tools & Environment
-- IDE: Visual Studio Code
+- IDE: Visual Studio Code, Android Studio
 - Java (Servlets)
 - Android Studio (Java, XML)
 - Apache Tomcat
